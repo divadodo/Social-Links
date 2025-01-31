@@ -20,24 +20,30 @@ body{
     padding: 25px;
     text-align: center;
     background-color: hsl(0, 0%, 12%);
-    
+    border-radius: 20px;
 }
 
 .container img{
     align-items: center;
+    border-radius: 50%;
 }
-
 
 .container h1{
-
+    margin-bottom: 0px;
+    
 }
 
-.container h3{
-    color: hsl(75, 94%, 57%)
+.container strong{
+    color: hsl(75, 94%, 57%);
+    margin-top: 5px;
+    font-size: small;
 }
 
-.container em{
 
+
+.tagline {
+    padding-top: 10px;
+    font-size: small;
 }
 
 
@@ -48,10 +54,10 @@ body{
 }
 
 .container ul li{
-    border: 1px solid black;
     background-color: hsl(0, 0%, 20%);
     padding: 10px;
-    margin-top: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
 
 }
 
